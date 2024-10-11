@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Hacer que el body ocupe toda la altura de la ventana */
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.container {
+    max-width: 400px;
+    width: 100%; /* Ocupar el 100% del ancho disponible */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar texto dentro del contenedor */
+}
+
+input, select {
+    width: 100%; /* Hacer que los inputs y selects ocupen el 100% del contenedor */
+    padding: 10px;
+    margin: 10px 0; /* Espacio entre los elementos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    margin: 0 0 20px; /* Espaciado inferior para los títulos */
+}
+

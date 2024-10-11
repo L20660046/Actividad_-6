@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Unidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convertidor de Unidades</h1>
+        <input type="number" id="valor" placeholder="Ingrese el valor" oninput="convertir()">
+        
+        <label for="unidadEntrada">Unidad de entrada:</label>
+        <select id="unidadEntrada" onchange="convertir()">
+            <option value="metros">Metros</option>
+            <option value="kilometros">Kilómetros</option>
+            <option value="millas">Millas</option>
+        </select>
+
+        <label for="unidadSalida">Unidad de salida:</label>
+        <select id="unidadSalida" onchange="convertir()">
+            <option value="metros">Metros</option>
+            <option value="kilometros">Kilómetros</option>
+            <option value="millas">Millas</option>
+        </select>
+  
+        <h2 id="resultado"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
